@@ -1,0 +1,369 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+/* Import google font css */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
+}
+.wrap-header {
+  background-color: #fff;
+  border-bottom: 1px solid #dddddd;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+}
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  width: 95%;
+  margin: auto;
+  padding: 20px 0;
+}
+.header > nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.header > nav > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: bold;
+  margin-left: 55px;
+  box-sizing: border-box;
+}
+.header > nav > ul > li > a > i {
+  color: #111111;
+}
+#home {
+  color: #8262b5;
+  margin-left: 0;
+}
+.header__main ul li a:hover {
+  color: #8262b5;
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ96A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+.ads {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 31px;
+  margin-bottom: 79px;
+}
+.ads__left {
+  max-width: 750px;
+  height: 560px;
+  margin-right: 15px;
+  position: relative;
+}
+.ads__left p {
+  position: absolute;
+  font-size: 22pt;
+  bottom: calc(50% - 73px);
+  right: 97px;
+  font-family: 'Pacifico', cursive;
+}
+.ads__left a {
+  position: absolute;
+  font-size: 12pt;
+  text-decoration: none;
+  background-color: #8262b5;
+  color: #fff;
+  padding: 15px;
+  bottom: calc(50% - 130px);
+  right: 97px;
+  font-family: 'Montserrat', sans-serif;
+}
+.ads__right {
+  max-width: 360px;
+  height: 560px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.ads__right__top {
+  margin-bottom: 15px;
+  position: relative;
+}
+.ads__right__top p {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  bottom: calc(50% - 25px);
+  left: 55px;
+}
+.ads__right__top__content {
+  color: #616161;
+}
+.ads__right__bottom {
+  margin-top: 15px;
+  position: relative;
+}
+.ads__right__bottom p {
+  position: absolute;
+  top: calc(50% - 45px);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  left: 40px;
+  color: #696969;
+}
+.content_bold {
+  color: #000;
+  font-weight: bold;
+}
+.ads__right__bottom a {
+  position: absolute;
+  bottom: calc(50% - 59px);
+  left: 40px;
+  text-decoration: none;
+  background-color: #8262b5;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-U1Ug.ttf) format('truetype');
+}
+.brand {
+  color: #8262b5;
+  text-transform: uppercase;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.featured-items > h2 {
+  margin-top: 20px;
+  font-size: 24pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.line {
+  border-bottom: 1px solid #8262b5;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+/* List Items */
+.list-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+}
+.item__image {
+  position: relative;
+}
+.item__image > img {
+  min-width: 100%;
+}
+.item__image > p {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-transform: uppercase;
+  padding: 15px 17px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt;
+}
+.item__image > p:hover {
+  color: #8262b5;
+  box-sizing: border-box;
+  border: 1px solid #8262b5;
+}
+.item__name {
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.item__name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.item__name:hover {
+  color: #8262b5;
+}
+.item__rate {
+  margin-bottom: 15px;
+}
+.item__rate li {
+  display: inline-block;
+  font-size: 12.4px;
+}
+.checked {
+  color: #f8bf15;
+}
+.unchecked {
+  color: #d1d1d1;
+}
+.item__price p {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
+.item__price__old {
+  color: #999999;
+  text-decoration: line-through;
+}
+.item__price__new {
+  color: #8262b5;
+  font-weight: 700;
+}

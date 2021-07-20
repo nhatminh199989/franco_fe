@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .brand{
     color:#8262b5;
     text-transform: uppercase;
@@ -26,7 +27,8 @@
 .list-items{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
 }
 
 .item__image{
@@ -35,7 +37,6 @@
 
 .item__image >img{
     min-width: 100%;
-    overflow: hidden;
 }
 
 .item__image >p{
@@ -51,4 +52,56 @@
 
 .item__image >p:hover{
     color: #8262b5;
+    box-sizing: border-box;
+    border: 1px solid #8262b5;
+}
+
+.item__name{
+    margin-top: 15px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+}
+
+.item__name {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.item__name:hover{
+    color:#8262b5;
+}
+
+.item__rate{
+   margin-bottom: 15px;
+}
+
+.item__rate li{
+    display:inline-block;
+    font-size: 12.4px;
+}
+
+.checked{
+    color: #f8bf15;
+}
+
+.unchecked{
+    color: #d1d1d1;
+}
+
+.item__price p{
+    display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item__price__old{
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.item__price__new{
+    color: #8262b5;
+    font-weight: 700;
 }

@@ -1,108 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/less/style.less">
-    <script src="https://kit.fontawesome.com/2dda09aa6c.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- Header -->
-<div class="wrap-header">
-    <header class="header">
+    <link rel="stylesheet" href="./assets/less/style.less" />
+    <link rel="stylesheet" href="./assets/less/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2dda09aa6c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="wrap-header">
+      <header class="header">
         <div>
-            <a href="#"><img id="logo" src="assets/image/logo-header.png"/></a>
+          <a href="#"><img id="logo" src="assets/image/logo-header.png" /></a>
         </div>
         <nav class="header__main">
-            <ul>
-                <li><a href="#" id="home">Home</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">Contact</a></li>                
-                <li><a href="#"><i class="fas fa-search"></i></a></li>
-            </ul>            
+          <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
         </nav>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        <img src="./assets/image/heart.png" />
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html">
-                        <img src="./assets/image/cart.png" />
-                    </a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a href="index.html">
+                <img src="./assets/image/heart.png" />
+              </a>
+            </li>
+            <li>
+              <a href="index.html">
+                <img src="./assets/image/cart.png" />
+              </a>
+            </li>
+          </ul>
         </nav>
-    </header>
-</div>
-<!-- End Header -->
+      </header>
+    </div>
+    <!-- End Header -->
 
-<div class="container">
-    <!-- Ads -->
-    <div class="ads">
+    <div class="container">
+      <!-- Ads -->
+      <div class="ads">
         <div class="ads__left">
-            <img src="./assets/image/banner-1.png"/>
-            <p>Two High-end Materials</p>
-            <a href="#">Shop now</a>
+          <img src="./assets/image/banner-1.png" />
+          <p>Two High-end Materials</p>
+          <a href="#">Shop now</a>
         </div>
         <div class="ads__right">
-            <div class="ads__right__top">
-                <img src="./assets/image/banner-2.png"/>
-                <p><span class="ads__right__top__content">Small thing</span><br/><b>make different</b></p>
-                
-            </div>
-            <div class="ads__right__bottom">
-                <img src="./assets/image/banner-3.png"/>
-                <p>folio <br/> <span class="content_bold">backpack</span></p>
-                <a href="#">Shop now</a>
-            </div>            
+          <div class="ads__right__top">
+            <img src="./assets/image/banner-2.png" />
+            <p>
+              <span class="ads__right__top__content">Small thing</span><br /><b
+                >make different</b
+              >
+            </p>
+          </div>
+          <div class="ads__right__bottom">
+            <img src="./assets/image/banner-3.png" />
+            <p>
+              folio <br />
+              <span class="content_bold">backpack</span>
+            </p>
+            <a href="#">Shop now</a>
+          </div>
         </div>
-    </div>
-    <!-- End Ads -->
+      </div>
+      <!-- End Ads -->
 
-    <!-- Items -->
-    <div class="featured-items">
+      <!-- Items -->
+      <div class="featured-items">
         <p class="brand">Franco</p>
         <h2><span class="line">Fea</span>tured items</h2>
-        
+
         <div class="list-items">
-            <div class="item">
-               <div class="item__image">
-                    <img src="./assets/image/product-1.png"/>
-                    <p>add to cart</p>
-               </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-1.png" />
+              <p>add to cart</p>
             </div>
-            <div class="item">
-                <div class="item__image">
-                     <img src="./assets/image/product-1.png"/>
-                     <p>add to cart</p>
-                </div>
-             </div>
-             <div class="item">
-                <div class="item__image">
-                     <img src="./assets/image/product-1.png"/>
-                     <p>add to cart</p>
-                </div>
-             </div>
-             <div class="item">
-                <div class="item__image">
-                     <img src="./assets/image/product-1.png"/>
-                     <p>add to cart</p>
-                </div>
-             </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Suspendisse id volutpat</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-2.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Lorem ipsum dolor</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-3.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Proin sed nulla mi</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-4.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Aenean placerat</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-5.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Suspendisse id volutpat</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-6.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Lorem ipsum dolor</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-7.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Proin sed nulla mi</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star unchecked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__image">
+              <img src="./assets/image/product-8.png" />
+              <p>add to cart</p>
+            </div>
+            <div class="item__desc">
+              <p class="item__name"><a>Aenean placerat</a></p>
+              <ul class="item__rate">
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+                <li><i class="far fa-star checked"></i></li>
+              </ul>
+              <div class="item__price">
+                <p class="item__price__old">$99.00</p>
+                <p class="item__price__new">$84.00</p>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
+      <!-- End Items -->
     </div>
-    <!-- End Items -->
-
-
-</div>
-
-</body>
+  </body>
 </html>
